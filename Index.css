@@ -1,0 +1,404 @@
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+header {
+    background-image: url(./81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 90vh;
+}
+
+#flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navlogo {
+    color: white;
+    position: absolute;
+    top: 12;
+    left: 0;
+    z-index: 100;
+    margin-left: 5rem;
+    padding-top: 2rem;
+    font-size: small;
+}
+
+#fixed_left {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: space-around;
+    gap: 3rem;
+    margin-right: 5rem;
+    padding-top: 2rem;
+}
+
+#navli {
+    color: aliceblue;
+}
+
+#log_col {
+    color: black;
+    margin-right: .2rem;
+}
+
+#header_body {
+    color: white;
+    position: absolute;
+    top: 32vh;
+    
+    z-index: 100;
+
+}
+
+#headline {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    line-height: 26px;
+    letter-spacing:1px ;
+    padding-left:40rem;
+    align-items: center;
+width: 30rem;
+height: 2.3rem;
+}
+#text{
+    padding-left: 26rem;
+    padding-top: 1px;
+    letter-spacing: 2px;
+    line-height: 2.5rem;
+    width: 80rem;
+    height: 2.3rem;
+    word-spacing: 10px;
+    font-size: xx-large;
+    font-weight: 90;
+}
+#searchbar{
+    background-color: white;
+    height: 8vh;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 27.8rem;
+    margin-top: 1rem;
+    width: 100vh;
+
+}
+#location{
+    color: red;
+    padding: .2rem;
+}
+#caret_down{
+    color: black;
+    padding-left: 5rem;
+    
+}
+#search_text{
+    color: black;
+
+}
+#glass{
+    color: black;
+    padding-left:2rem ;
+}
+#search_text2{
+    color: black;
+    padding-left:1rem ;
+
+}
+#space{
+    margin-top: 2rem;
+}
+#flex_food{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 4rem;
+}
+
+.food_menu{
+display: flex;
+flex-direction: column;
+padding: 1rem;
+ width:67vh ;
+  height: 30vh;
+  transition: all 1s linear;
+}
+.food_menu:hover{
+transform: scale(1.06);
+}
+ #menu_pic{
+    border-top-left-radius: .4rem;
+    border-top-right-radius: .4rem;
+  
+    width: 67vh;
+    height: 25vh;
+}
+#flex_colom{
+   border: 1px solid black;
+   width: 67vh;
+   height: 7.5vh;
+   padding:.5rem ;
+   border-bottom-left-radius: .4rem;
+   border-bottom-right-radius: .4rem;
+   margin-top: -.2rem;
+}
+#link{
+    text-decoration: none;
+    color: black;
+}
+#space_area{
+    margin-top: 3rem;
+}
+#local_area{
+    padding-left:17rem ;
+    letter-spacing: 2px;
+    line-height: 2.5rem;
+    width: 80rem;
+    height: 2.3rem;
+    word-spacing: 10px;
+    font-size: xx-large;
+    font-weight: 90;
+}
+#grid_layout{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+#area{
+    position: relative;
+    border-radius: .3rem;
+    width: 60vh;
+    height: 15vh;
+    padding: .2rem;
+    border: 1px  solid rgb(213, 209, 209);
+    display: flex;
+    flex-direction: column;
+   padding: 1.5rem;
+   margin: 1rem;
+   transition: all 1s linear;
+}
+#area:hover{
+transform: scale(1.05);
+}
+#area_name{
+    font-size: x-large;
+    font-weight: 500;
+}
+#area_name1{
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+}
+
+#num_area{
+    padding-top:.6rem ;
+}
+#greater{
+   position: absolute;
+   top: 50px;
+   right: 10px;
+   
+
+
+}
+#greater1{
+    position: absolute;
+    top: 38px;
+    right: 100px;
+    
+ 
+ 
+ }
+ #container{
+    background-color: rgb(245, 245, 237);
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    padding: 2rem;
+ }
+ #container_text{
+    font-weight: 700;
+    font-size: x-large;
+    
+    word-spacing:3px;
+    letter-spacing: 1px;
+
+ }
+#contain_par{
+    font-weight: 100;
+    font-size: 700;
+    word-spacing: 2px;
+   
+}
+
+ #mobile{
+    width: 49vh;
+    height: 50vh;
+ }
+#checkbox, #side,#sticker
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#simple{
+    font-size: smaller;
+    font-weight: 100;
+}
+#stick{
+height: 3rem;
+padding: .5rem;
+}
+#side{
+
+}
+#side1{
+    width: 15rem;
+    height: 6vh;
+    border-radius: .5rem;
+}
+#side2{
+    height: 6vh;
+    width: 8rem;
+    border-radius: .5rem;
+   background-color: red;
+   color: white;
+   margin-left: .5rem;
+}
+#down_text{
+    font-size: small;
+}
+#email2{
+    margin-left: 3rem;
+}
+#mobile{
+    padding-top:3rem ;
+}
+#last_colom{
+    display: flex;
+    flex-direction: column;
+    justify-self:center;
+    align-items: center;
+}
+#colom{
+    display: flex;
+    flex-direction: column;
+    height: .5vh;
+    width: 100vh;
+    border: 2px solid rgb(226, 221, 213);
+padding: 3rem;
+margin: 1.5rem;
+position: relative;
+border-radius: .2rem;
+transition: all 1s linear;
+}
+#less{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    
+ 
+}
+#colom:hover{
+transform: scale(1.03);
+}
+footer{
+   
+    height: 80vh;
+    border: .9px solid rgb(248, 235, 235);
+
+}
+#foot_head{
+    background-color: white;
+    margin: 4rem;
+   height: 8vh;
+  position: relative;
+}
+#zoma_log{
+    position: absolute;
+    top: 0;
+    left: 1;
+    z-index: 1;
+    padding-left:1rem ;
+}
+#map{
+    position: relative;
+    
+   margin:1rem;
+}
+
+#map1{
+    
+position: absolute;
+top: 12px;
+right: 0;
+z-index: 1;
+
+    font-size:small;
+    border: .1px solid rgb(145, 140, 140);
+    width: 16vh;
+    padding: .12rem;
+    margin-left: 1rem;
+}
+
+
+#map2{
+    
+    position: absolute;
+    top: 0px;
+    right: 10rem;
+    z-index: 1;
+    
+        font-size:small;
+        border: .1px solid rgb(145, 140, 140);
+        width: 80px;
+        padding: .12rem;
+    }
+    #flag{
+        height: 10px;
+
+    }
+    #last_stage{
+        background-color:;
+       display: flex;
+       justify-content: center;
+       margin-top: -5rem;
+
+    }
+    #last1{
+        background-color: white;
+display: flex;
+flex-direction: column;        
+padding: 5rem;
+    }
+    #sticky{
+        height: 3rem;
+        width: 10rem;
+    }
+    #tera_bap{
+        margin-bottom: 1rem;
+    }
+    #lastp{
+        font-size: small;
+        padding: .2rem;
+    }
+    #link{
+        padding-left: 1.5rem;
+    }
+    #copy{
+        font-size: x-small;
+        text-align: center;
+    }
